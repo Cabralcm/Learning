@@ -8,6 +8,8 @@ https://www.youtube.com/user/SpartacanUsuals
 
 https://ben-lambert.com/about/
 
+https://ben-lambert.com/bayesian-lecture-slides/
+
 2) ritvikmath
 
 https://www.youtube.com/channel/UCUcpVoi5KkJmnE3bvEhHR0Q/featured
