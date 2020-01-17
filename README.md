@@ -17,5 +17,9 @@ https://www.youtube.com/channel/UCUcpVoi5KkJmnE3bvEhHR0Q/featured
 https://www.youtube.com/channel/UCgBncpylJ1kiVaPyP-PZauQ
 
 
+4) Stats and Math Golden Resource
+
+http://web2.uwindsor.ca/math/hlynka/statcourses.html
+
 
 
