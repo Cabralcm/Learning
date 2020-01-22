@@ -13,10 +13,29 @@
 4) [Stats and Math Golden Resource (UWindsor)](http://web2.uwindsor.ca/math/hlynka/statcourses.html)
 
 5) [Carl Edward Rasmussen](http://mlg.eng.cam.ac.uk/carl/)
-   - [http://gaussianprocess.org/](Gaussian Processes)
+   - [Gaussian Processes](http://gaussianprocess.org/)
    - [Probabilistic Machine Learning - Excellent list of other textbooks and Resources](http://mlg.eng.cam.ac.uk/teaching/4f13/1920/)
 
 6) [Statistical Learning - Stanford Course](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
+
+7) [Jeffrey W. Miller](http://jwmi.github.io/teaching.html)
+   - [BST 263 - Statistical Learning](http://jwmi.github.io/SL/index.html)
+   - [YT Channel](https://www.youtube.com/user/mathematicalmonk)
+   
+8) [Harvard Data Science](https://www.hsph.harvard.edu/health-data-science/program/)
+   - [Introduction to Data Science (BST 260)](https://datasciencelabs.github.io/)
+   - [Data Science II (BST 261)](https://github.com/hmattie/BST261Spring2018)
+   - [Statistical Learning - BST 263](http://jwmi.github.io/SL/index.html)
+   
+   >- BST 222    Basics of Statistical Inference (5 credits)
+   >- BST 260    Introduction to Data Science (5 credits)
+   >- BST 261    Data Science II (2.5 credits)
+   >- BST 262    Computing for Big Data (2.5 credits)
+   >- BST 263    Applied Machine Learning (5 credits)
+
+9) [David McKay](http://www.inference.org.uk/mackay/itila/)
+
+10) [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)
 
 ## Machine Learning Fundamentals
 
