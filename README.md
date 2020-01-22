@@ -1,6 +1,6 @@
 # Learning
 
-## Stats and Math
+## Statistics and Math
 
 1) [Ben Lampert](https://ben-lambert.com/about/)
    - https://www.youtube.com/user/SpartacanUsuals
@@ -12,11 +12,13 @@
 
 4) [Stats and Math Golden Resource (UWindsor)](http://web2.uwindsor.ca/math/hlynka/statcourses.html)
 
-5) [Gaussian Processes](http://mlg.eng.cam.ac.uk/carl/)
+5) [Carl Edward Rasmussen](http://mlg.eng.cam.ac.uk/carl/)
+   - [http://gaussianprocess.org/](Gaussian Processes)
+   - [Probabilistic Machine Learning - Excellent list of other textbooks and Resources](http://mlg.eng.cam.ac.uk/teaching/4f13/1920/)
 
 6) [Statistical Learning - Stanford Course](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 
-## ML Fundamentals
+## Machine Learning Fundamentals
 
 1) [Mathematics of Machine Learning](https://ocw.mit.edu/courses/mathematics/18-657-mathematics-of-machine-learning-fall-2015/)
 
@@ -55,6 +57,18 @@ Key figures:
 
 3) [MIT - Advanced Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/)
 
+4) [Stanford Algorithms](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about)
+   - [CS 161](http://web.stanford.edu/class/cs161/schedule.html)
+   - [Youtube Stanford Algorithms](https://www.youtube.com/channel/UCH4s4ek5zqNvct5oy9_jd_g/playlists)
+   - [Tim Roughgarden](http://timroughgarden.org/videos.html)
+
+5) [Robert Sedgewick Algorithms](https://algs4.cs.princeton.edu/home/)
+
+6) [William Fiset](https://www.youtube.com/user/purpongie)
+   - [All in one video](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+
+7) [Quora List](https://www.quora.com/What-are-the-best-courses-on-algorithms-and-data-structures-by-Stanford-for-professionals)
+
 ## Computer Architecture and Computing
 
 1) [Computation Structures (MIT 6.004)](https://computationstructures.org/)
@@ -64,3 +78,15 @@ Key figures:
 
 3) [Computer System Architecture](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/)
 
+## React / Redux / Web Dev / Development
+
+1) [Tyler Mcginnis](https://tylermcginnis.com/courses/redux/)
+
+2) [FreeCodeCamp YT](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
+
+## System Design 
+1) Grokking the System Design Interview Course
+
+2) [YT Grokking System Design](https://www.youtube.com/playlist?list=PL73KFetZlkJSZ9vTDSJ1swZhe6CIYkqTL)
+
+3) [Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
