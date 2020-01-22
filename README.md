@@ -3,8 +3,8 @@
 ## Stats and Math
 
 1) [Ben Lampert](https://ben-lambert.com/about/)
--  https://www.youtube.com/user/SpartacanUsuals
--  https://ben-lambert.com/bayesian-lecture-slides/
+   - https://www.youtube.com/user/SpartacanUsuals
+   - https://ben-lambert.com/bayesian-lecture-slides/
 
 2) [ritvikmath](https://www.youtube.com/channel/UCUcpVoi5KkJmnE3bvEhHR0Q/featured)
 
@@ -13,6 +13,8 @@
 4) [Stats and Math Golden Resource (UWindsor)](http://web2.uwindsor.ca/math/hlynka/statcourses.html)
 
 5) [Gaussian Processes](http://mlg.eng.cam.ac.uk/carl/)
+
+6) [Statistical Learning - Stanford Course](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 
 ## ML Fundamentals
 
@@ -56,7 +58,7 @@ Key figures:
 ## Computer Architecture and Computing
 
 1) [Computation Structures (MIT 6.004)](https://computationstructures.org/)
-- [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/)
+   - [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/)
 
 2) [Computer System Engineering](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/)
 
