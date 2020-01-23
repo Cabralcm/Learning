@@ -37,6 +37,18 @@
 
 10) [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)
 
+11) [Harvard Stats 110]
+    - [Youtube Playlist](https://www.youtube.com/watch?v=dzFf3r1yph8&list=PLLVplP8OIVc8EktkrD3Q8td0GmId7DjW0)
+    - Math 112 - Intro to Real Analysis (Rudin)
+    - Math 114 - Real Analysis (Royden)
+    - Stats 210 and 212 
+    - Harvard math 212 a and b
+12) [MIT Introduction to Probability](https://www.youtube.com/watch?v=1uW3qMFA9Ho&list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+    - [MIT Applied Probability](https://www.youtube.com/watch?v=j9WZyLZCBzs&list=PLUl4u3cNGP61MdtwGTqZA0MreSaDybji8)
+    
+13) [Real Analysis](https://www.youtube.com/watch?v=a0JNGx0Da8k&list=PLXQazrgmw67EeQFcVW-oNoFBbtvGLUE3Y)
+
+14) [Complex Analysis](
 ## Machine Learning Fundamentals
 
 1) [Mathematics of Machine Learning](https://ocw.mit.edu/courses/mathematics/18-657-mathematics-of-machine-learning-fall-2015/)
