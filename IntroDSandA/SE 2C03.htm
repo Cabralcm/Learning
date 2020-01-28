@@ -1,0 +1,955 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>SE 2C03</title>
+    <meta name="Generator" content="Cocoa HTML Writer">
+    <meta name="CocoaVersion" content="1561.2">
+    <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 28.0px; font: 24.0px Times; color: #ff213f; -webkit-text-stroke: #ff213f}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #009900; -webkit-text-stroke: #009900}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 20.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p10 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #ff1736; -webkit-text-stroke: #ff1736}
+    p.p11 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 20.0px; font: 16.8px Times; color: #ff0000; -webkit-text-stroke: #000000}
+    p.p12 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 20.0px; font: 16.8px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li9 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 16.8px Times; color: #ff0000; -webkit-text-stroke: #ff0000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s3 {font: 12.0px Times; font-kerning: none}
+    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s5 {-webkit-text-stroke: 0px #000000}
+    span.s6 {text-decoration: underline ; font-kerning: none}
+    span.s7 {color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s8 {font: 16.8px Times; text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s9 {font-kerning: none; color: #000000}
+    span.s10 {text-decoration: underline ; font-kerning: none; color: #0000ee}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+  </head>
+  <body>
+    <p class="p1"><span class="s1"><b>DATA STRUCTURES AND ALGORITHMS</b></span><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p2"><span class="s3">&nbsp; </span><span class="s1"><b>SE
+          2C03&nbsp; (Winter 2020)</b></span></p>
+    <p class="p3"><span class="s1"><br>
+      </span></p>
+    <p class="p3"><span class="s1"><br>
+      </span></p>
+    <p class="p4"><span class="s1"><b>* * * This outline is constantly
+          updated. Students should consult this page regularly for all
+          information relevant to this course * * *</b></span><span class="s4"><br>
+      </span></p>
+    <p class="p5"><span class="s1"><b>Instructor</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1">Dr. George Karakostas <br>
+        ITB/218, ext 26132, Mac address: karakos <br>
+        Office hours: </span><span class="s1">by email appointment<br>
+      </span></p>
+    <p class="p5"><span class="s1"><b>Course Assistance</b><span class="Apple-converted-space"> <br>
+        </span></span></p>
+    <p class="p5"><span class="s1"><span class="Apple-converted-space">Soroush
+
+
+
+          Zamani Alavijeh (zamanias@mcmaster.ca), ITB/223, Office hour:
+          Mo 5:00-6:00 pm<br>
+          Sophia Tao (taos1@mcmaster.ca), ITB Drop-in Ctr., Office hour:
+          Tue 1:30-2:30 pm<br>
+          Lewis Rafuse (rafusel@mcmaster.ca), </span></span><span class="s1"><span class="Apple-converted-space">ITB Drop-in Ctr.,
+          Office hour: Fri 2:30-3:30 pm</span></span><br>
+      <span class="s1"><span class="Apple-converted-space"></span></span></p>
+    <span class="s1"></span><span class="s1"><span class="s1"></span></span>
+    <p class="p5"><span class="s1"><br>
+        <b>Schedule</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1">Term II, 2019/20<br>
+      </span>Mo We 2:30-3:20 PM, Rm. MDCL/1309<br>
+      <span class="s1">
+        <meta charset="utf-8">
+        Fr 4:30-5:20 PM, Rm. MDCL/1309<br>
+        <br>
+        <b>Tutorials</b></span></p>
+    <p class="p5"><span class="s1">Session 1:&nbsp;&nbsp; Tu 10:30-11:20
+        AM, Rm. BSB/B155<br>
+        Session 2: &nbsp; Th 2:30-3:20 PM, Rm. ABB/162<br>
+        Session 3:&nbsp;&nbsp; Tu 2:30-3:20 PM, Rm. </span><span class="s1"><span class="s1">BSB/B155</span> </span></p>
+    <p class="p5"><span class="s1"><b>Prerequisites</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>SFWR ENG 2DM3</b></span></p>
+    <p class="p5"><span class="s1"><b><br>
+          Course Objectives</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p6"><span class="s1">In this course, we will study the
+        concepts behind the technology of algorithms and data
+        structures. The algorithmic solution of problems arises in any
+        Computer Science or Software Engineering (indeed, <i>any </i>engineering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        or science) issue. Our goal will be: (i) To appreciate that
+        algorithms and data structures are a <i>technology </i>(just
+        as, say, electrical circuit design, or large software system
+        design); this will be done by introducing performance
+        measurement in order to measure algorithmic efficiency (in this
+        course we will limit ourselves to efficient usage of <i>time</i>,
+        and, sometimes, <i>space</i>). (ii) To recognize the details
+        and nuances of modelling basic problems such as sorting,
+        searching, graph exploration, etc. that will always show up in a
+        Computer Scientist's or Software Engineer's career, and take
+        advantage of these details in order to design better algorithmic
+        solutions; not all algorithms that solve a problem are good, and
+        no algorithm is good for all problems. (iii) To practice the art
+        of reducing a given problem or application to other problems for
+        which we already have good algorithms.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p6"><span class="s1"><br>
+      </span></p>
+    <p class="p6"><span class="s1">More specifically, students should
+        know and understand:</span></p>
+    <ul class="ul1">
+      <li class="li6"><span class="s5"></span><span class="s1">Worst
+          case analysis of algorithms</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Basic
+          searching algorithms (elementary sorts, quicksort, mergesort,
+          heapsort)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Basic
+          sorting algorithms (binary search, search trees, hashing)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Elementary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          data structures (stacks, queues, priority queues, search
+          trees, heaps, hash tables, tries, graph representations)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Graph
+          algorithms (topological sort, breadth/depth-first-search,
+          strongly connected components, minimum spanning trees,
+          shortest paths)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Basic
+          string algorithms</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">FSA's and
+          Regular expressions</span></li>
+    </ul>
+    <p class="p7"><span class="s1"></span><br>
+    </p>
+    <p class="p6"><span class="s1">Students should be able to</span></p>
+    <ul class="ul1">
+      <li class="li6"><span class="s5"></span><span class="s1">Analyze
+          the running time of algorithms</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Identify
+          the time/space trade-offs in designing data structures and
+          algorithms</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Given a
+          problem such as searching, sorting, graph and string problems,
+          select from a range of possible algorithms, provide
+          justification for that selection</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Understand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          implementation issues for the algorithms studied</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Reduce a
+          given application to (or decompose it into) problems already
+          studied</span></li>
+    </ul>
+    <p class="p7"><span class="s1"></span><br>
+    </p>
+    <p class="p8"><span class="s6"><a href="http://www.cas.mcmaster.ca/%7Egk/courses/SE2C03gradAttrib%202015.pdf"><b>Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            objectives, indicators, and rubrics</b></a></span><span class="s4"><b>&nbsp;<span class="Apple-converted-space">&nbsp;</span></b></span></p>
+    <p class="p6"><span class="s1"><br>
+      </span></p>
+    <p class="p5"><span class="s1"><b>Outline of Topics (roughly per
+          week)</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <ol class="ol1">
+      <li class="li6"><span class="s5"></span><span class="s1">Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          (1.3)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Analysis
+          of algorithms - Union-Find&nbsp; (1.4, 1.5)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Elementary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          sorts - Mergesort - Quicksort (2.1, 2.2, 2.3)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Priority
+          queues - Sorting applications (2.4, 2.5)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Symbol
+          tables - Binary search trees (3.1, 3.2)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Balanced
+          search trees - Hash tables - searching applications (3.3, 3.4,
+          3.5)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Graph
+          representation - BFS/DFS - Connected components - Topological
+          sort (4.1, 4.2)<span class="Apple-converted-space">&nbsp;</span></span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Minimum
+          Spanning Trees - Shortest paths (4.3, 4.4)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">String
+          sorts - Tries (5.1, 5.2)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Substring
+          search - FSA's and regular expressions (5.3 except KMP, 5.4)</span></li>
+    </ol>
+    <p class="p6"><span class="s1">&nbsp;&nbsp;</span></p>
+    <p class="p5"><span class="s1"><b>Student Assessment (Grading)</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <ul class="ul1">
+      <li class="li6"><span class="s5"></span><span class="s1">Homework
+          assignments&nbsp;&nbsp;&nbsp; <b>15%</b></span></li>
+      <li class="li9"><span class="s7"></span><span class="s4">Midterm
+          exam&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 40% </b></span><font color="#ff0000"><span class="s4"><b><b><span class="s1"><font color="#ff0000">(Feb. 13, 6:30 - 9:00 PM. Rm.
+                    PGCLL/B131</font></span></b></b></span></font><span class="s4"><b><font color="#ff0000"><b><span class="s1"><span class="s1"><font color="#ff0000"><span class="s4"><b><b><span class="s1"></span></b><font color="#ff0000"><b><span class="s1"><span class="s1">,</span></span></b></font></b></span></font><span class="s4"><b><font color="#ff0000"><b><span class="s1"><span class="s1"><font color="#ff0000"><span class="s4"><b><b><span class="s1"> </span></b></b></span></font></span></span></b></font></b></span></span></span></b></font></b></span><span class="s4"><b><font color="#ff0000"><b><span class="s1"><span class="s1"><font color="#ff0000"><span class="s4"><b><b><span class="s1"><font color="#ff0000">PGCLL/M16.
+
+
+
+
+                              </font></span></b></b></span></font>Open
+                    book (only original hardcopy of the textbook, no
+                    notes)</span></span></b></font></b></span><span class="s4"><b><font color="#ff0000"><b><span class="s1"><span class="s1"><b><span class="s1"></span></b>)</span></span></b></font>
+          </b></span><b><span class="s1"></span></b></li>
+      <li class="li9"><span class="s7"></span><span class="s4">Final
+          exam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>45%
+
+
+
+
+          </b></span><span class="s4"><b><font color="#ff0000"><span class="s1"><b></b></span></font></b></span><span class="s4"><br>
+        </span></li>
+    </ul>
+    <p class="p7"><span class="s1"></span><br>
+    </p>
+    <p class="p6"><span class="s1"><b>Policy on collaboration for
+          homework assignments: </b>Collaboration on the homework
+        assignments is highly encouraged, within reasonable limits.
+        Students are expected to discuss assignment problems with each
+        other, and to cooperate on solutions in groups of no more than 5
+        people. However, the final write-up should be done by individual
+        students (i.e. individual students should be able to explain
+        their solutions by themselves, if such an explanation is asked
+        for by the instructor) and the names of the collaborators should
+        appear on the paper. Cooperation and teamwork are necessary for
+        the success of any complex task (the design of algorithms being
+        one such task), and it is the instructor's hope that students
+        will come to appreciate them in a constructive way. Please see
+        the instructor if you need someone to collaborate with.</span></p>
+    <p class="p5"><span class="s1"><b>Policy on delayed assignments: </b>Assignments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        delivered between the lecture they were due and the following
+        lecture get 50% of total credit. After the following lecture, no
+        credit given.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p10"><span class="s4"><b>Policy on collaboration during
+          exams: </b></span><span class="s1"><b>ABSOLUTELY NO
+          COLLABORATION DURING EXAMS!!!</b></span><span class="s4"> <br>
+        &nbsp;<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>Resources</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>Required textbook:</b> <b>"Algorithms",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          4th ed., by R. Sedgewick and K. Wayne. </b><br>
+        <b>Recommended textbook: "Elements of programming interviews",
+          by A. Aziz, T-H. Lee, A. Prakash</b> <br>
+      </span></p>
+    <p class="p5"><span class="s1"><b>Algorithms visualization tools: </b>There
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        are many of those. One that can be particularly useful is the
+        tool developed by David Galles and you can find <a href="http://www.cs.usfca.edu/%7Egalles/visualization/Algorithms.html"><span class="s8">here.</span></a><br>
+      </span></p>
+    <p class="p5"><span class="s1"><b>Other texts: </b>There are many
+        excellent (text)books that can be used for studying algorithms
+        and data structures. Here I give only a couple you may find
+        interesting, but don't feel discouraged from creating your own
+        "algorithmic library" and finding the books that fit your needs.
+        The subject of this course is rather challenging, and you will
+        benefit if you hear more than one person(=book) explain a
+        concept to you.</span></p>
+    <ul class="ul1">
+      <li class="li6"><span class="s5"></span><span class="s1">"Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          to Algorithms", 3rd ed., by T.H. Cormen, C.E. Leiserson, R.L.
+          Rivest, and C. Stein. <b>Note: </b>This book is a great
+          reference book, although somewhat more advanced.</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">"Algorithms"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          by S. Dasgupta, C. Papadimitriou, and U. Vazirani. <b>Note: </b>This
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          book is also an introductory text but in many topics it goes
+          deeper, and also covers a somewhat different set of topics.</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">"Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          to the design and analysis of algorithms" by A. Levitin. <b>Note:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </b>This text is also introductory, but its organization of
+          the material is different to ours: it develops design
+          techniques and then it applies them to problems, i.e., it's
+          "technique oriented"; we take the "problem oriented" approach,
+          where we study algorithms for specific problems and then we
+          try to distil general techniques. The two approaches are not
+          totally independent, but you may find it interesting to see
+          another aspect of teaching the same material.</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">"Algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          design" by J. Kleinberg and E. Tardos. <b>Note: </b>A little
+          more advanced text that is more oriented towards the design of
+          algorithms and is as much concerned with the nitty-gritty of
+          implementation.</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">...(your
+          favourite book goes here)</span></li>
+      <li class="li6"><span class="s5"></span><span class="s1">Me (yes,
+          me, your instructor): If you find something interesting, or
+          think of a problem you don't see how to solve, or want to know
+          more about a topic, please make use of the office hours and
+          come talk to me; I may be able to give you a pointer or two.
+          &nbsp; <br>
+        </span></li>
+    </ul>
+    <p class="p5"><span class="s1">&nbsp;<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>Academic Dishonesty</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>"Academic dishonesty consists of
+          misrepresentation by deception or by other<br>
+          fraudulent means and can result in serious consequences, e.g.
+          the grade of<br>
+          zero on an assignment, loss of credit with a notation on the
+          transcript<br>
+          (notation reads:&nbsp; "Grade of F assigned for academic
+          dishonesty"), and/or<br>
+          suspension or expulsion from the university.<br>
+          <br>
+          It is your responsibility to understand what constitutes
+          academic<br>
+          dishonesty.&nbsp; For information on the various kinds of
+          academic dishonesty<br>
+          please refer to the Academic Integrity Policy, specifically
+          Appendix 3,<br>
+          located at
+          http://www.mcmaster.ca/senate/academic/ac_integrity.htm<br>
+          <br>
+          The following illustrates only three forms of academic
+          dishonesty:<br>
+          1.&nbsp;&nbsp;&nbsp; Plagiarism, e.g. the submission of work
+          that is not one's own or for which other credit has been
+          obtained.&nbsp; (e.g. submitting a copy of someone else's
+          writeup for an assignment)<br>
+          2.&nbsp;&nbsp;&nbsp; Improper collaboration in group work.
+          (e.g. collaboration between groups in an assignment)<br>
+          3.&nbsp;&nbsp;&nbsp; Copying or using unauthorized aids in
+          tests and examinations."<br>
+        </b></span></p>
+    <p class="p5"><span class="s1"><b>Faculty Notices</b><span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p class="p5"><span class="s1"><b>"The Faculty of Engineering is
+          concerned with ensuring an environment that is free of all
+          discrimination.&nbsp; If there is a problem, individuals are
+          reminded that they should contact the Department Chair, the
+          Sexual Harrassment Officer or the Human Rights Consultant, as
+          the problem occurs."</b> <br>
+        &nbsp;&nbsp; <br>
+        <b>"The instructor and university reserve the right to modify
+          elements of the course during the term. The university may
+          change the dates and deadlines for any or all courses in
+          extreme circumstances. If either type of modification becomes
+          necessary, reasonable notice and communication with the
+          students will be given with explanation and the opportunity to
+          comment on changes. It is the responsibility of the student to
+          check their McMaster email and course websites weekly during
+          the term and to note any changes."<br>
+        </b></span></p>
+    <p class="p5"><span class="s1"><b><br>
+          Assignments</b></span></p>
+    <p class="p5"><span class="s1">All assignments are to be submitted
+        to the instructor at the beginning of the lecture.</span><br>
+    </p>
+    <p class="p11"><span class="s1"><b>Assignment 1 (Due beginning of
+          lecture Mon. 20/1):&nbsp; </b></span><span class="s9">The
+        questions are <a href="http://www.cas.mcmaster.ca/%7Egk/courses/2C03assign1.pdf"><span class="s10">here</span></a>. </span><span class="s9"><span class="s9"><span class="s1"><font color="#000000">The
+              solutions are</font> <a href="http://www.cas.mcmaster.ca/%7Egk/courses/2C03assign1_sol.pdf">here</a></span></span>.</span><span class="s1"><b> <br>
+        </b></span><b><span class="s1"><span class="s1">Assignment 2
+            (Due </span><span class="s1"><span class="s1">beginning of
+              lecture Mon. 3/2</span>):&nbsp; </span></span></b><span class="s1"><span class="s9">The questions are <a href="http://www.cas.mcmaster.ca/%7Egk/courses/2C03assign2.pdf"><span class="s10">here</span></a>.</span>&nbsp;</span><span class="s1"><b> </b></span></p>
+    <p class="p11"><span class="s1"></span><span class="s9"><span class="s9"><span class="s1"><b><span class="s1"><b></b></span></b></span></span></span><span class="s1"><font color="#000000">To read the assignment files,
+          you'll need the Adobe Reader, which is</font>&nbsp;<a href="http://www.adobe.com/products/acrobat/readstep2.html"><span class="s8">here</span></a>.<span class="Apple-converted-space">&nbsp;</span></span> </p>
+    <p class="p5"><span class="s1"><b><br>
+          Slides</b></span></p>
+    <p class="p5"><span class="s1">The lecture slides are a collection
+        of textbook figures and other material. You can find them at the
+        textbook site <a href="http://algs4.cs.princeton.edu/home"><span class="s8">here</span></a>.&nbsp; &nbsp; <br>
+      </span></p>
+    <p class="p6"><span class="s1"><br>
+      </span></p>
+  
+
+</body></html>
