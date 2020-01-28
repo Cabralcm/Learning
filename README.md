@@ -22,6 +22,8 @@
    - [BST 263 - Statistical Learning](http://jwmi.github.io/SL/index.html)
    - [YT Channel - mathematicalmonk](https://www.youtube.com/user/mathematicalmonk)
       > Graduate Level Probability Primer (Measure Theory), Machine Learning, Information Theory
+   - [Measure Theory - NPTEL](https://nptel.ac.in/courses/111101005/)
+   - [Measure Theory - MIT](https://ocw.mit.edu/courses/mathematics/18-125-measure-and-integration-fall-2003/)
    
 8) [Harvard Data Science](https://www.hsph.harvard.edu/health-data-science/program/)
 > **Harvard Data Science Core Curriculum**
