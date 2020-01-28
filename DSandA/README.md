@@ -11,7 +11,7 @@
 Simply change **Season --> Fall or Spring**, as well as the last two digits of the year **10 --> 19**
 
 For instance:
-[https://www.cs.princeton.edu/courses/archive/**fall19**/cos226/info.html](https://www.cs.princeton.edu/courses/archive/fall19/cos226/info.html)
+[https://www.cs.princeton.edu/courses/archive/**fall19**/cos226/](https://www.cs.princeton.edu/courses/archive/fall19/cos226/)
 
 **OR**
 
