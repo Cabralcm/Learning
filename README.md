@@ -68,7 +68,7 @@
 
 7) [Stanford Convex Optimization I](http://web.stanford.edu/class/ee364a/)
 
-8) [Stanford Convext Optimizatoin II](http://web.stanford.edu/class/ee364b/)
+8) [Stanford Convext Optimization II](http://web.stanford.edu/class/ee364b/)
 
 9) [Statistics for Applications](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/)
 
