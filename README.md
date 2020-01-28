@@ -20,7 +20,8 @@
 
 7) [Jeffrey W. Miller](http://jwmi.github.io/teaching.html)
    - [BST 263 - Statistical Learning](http://jwmi.github.io/SL/index.html)
-   - [YT Channel](https://www.youtube.com/user/mathematicalmonk)
+   - [YT Channel - mathematicalmonk](https://www.youtube.com/user/mathematicalmonk)
+      > Probability Primer, Machine Learning, Information Theory
    
 8) [Harvard Data Science](https://www.hsph.harvard.edu/health-data-science/program/)
 > **Harvard Data Science Core Curriculum**
