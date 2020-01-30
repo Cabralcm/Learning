@@ -82,6 +82,8 @@
 
 ## Data Structures and Algorithms
 
+[William Fiset DSA YT Playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
+
 Key figures:
 [Dr. Srinivas (Srini) Devadas](https://people.csail.mit.edu/devadas/)
 
