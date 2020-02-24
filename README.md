@@ -2,8 +2,8 @@
 
 # General Youtube Channels
 
-1)(Education 4u)[https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A]
-(Playlists)[https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A/playlists]
+1)[Education 4u](https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A)
+  [Playlists](https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A/playlists)
 
 ## Statistics and Math
 
