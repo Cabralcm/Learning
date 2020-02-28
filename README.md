@@ -5,6 +5,10 @@
 1)[Education 4u](https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A)
   - [Playlists](https://www.youtube.com/channel/UCKS34cSMNaXaySe2xgXH-3A/playlists)
 
+2)[Git - Merging and Commiting](https://www.thegeekstuff.com/2019/03/git-create-dev-branch-and-merge/)
+  - after commiting, push merged master branch to repo!
+
+
 ## Statistics and Math
 
 1) [Ben Lampert](https://ben-lambert.com/about/)
