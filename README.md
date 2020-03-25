@@ -7,7 +7,7 @@
 
 2) [Git - Merging and Commiting](https://www.thegeekstuff.com/2019/03/git-create-dev-branch-and-merge/)
   - after commiting, push merged master branch to repo!
-
+3) [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
 
 ## Statistics and Math
 
