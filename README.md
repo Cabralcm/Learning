@@ -10,6 +10,8 @@
   
 3) [Ben Eater - YT Channel](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
 
+4) [Missing Semester MIT}(https://missing.csail.mit.edu/)
+
 ## Statistics and Math
 
 1) [Ben Lampert](https://ben-lambert.com/about/)
