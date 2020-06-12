@@ -12,6 +12,8 @@
 
 4) [Missing Semester MIT](https://missing.csail.mit.edu/)
 
+5) [Waterloo ML](https://cs.uwaterloo.ca/~ppoupart/)
+
 ## Statistics and Math
 
 1) [Ben Lampert](https://ben-lambert.com/about/)
