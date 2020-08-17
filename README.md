@@ -65,7 +65,10 @@
     
 13) [Real Analysis](https://www.youtube.com/watch?v=a0JNGx0Da8k&list=PLXQazrgmw67EeQFcVW-oNoFBbtvGLUE3Y)
 
-14) [Complex Analysis](
+14) [Complex Analysis](https://www.youtube.com/playlist?list=PL_onPhFCkVQjdQTbG0eQk42eH0RaBoYJf)
+
+15) [Complex Analysis - Coursera](https://www.coursera.org/learn/complex-analysis)
+
 ## Machine Learning Fundamentals
 
 1) [Mathematics of Machine Learning](https://ocw.mit.edu/courses/mathematics/18-657-mathematics-of-machine-learning-fall-2015/)
